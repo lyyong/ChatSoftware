@@ -1,7 +1,7 @@
 #ifndef MYSELF_H
 #define MYSELF_H
 
-#include "abstractintroduction.h"
+#include "POJO/abstractintroduction.h"
 
 class Myself : public AbstractIntroduction
 {

@@ -5,7 +5,7 @@ Connector::Connector(QObject *parent):QTcpSocket (parent){
 
 void Connector::assign(const QString info){
     for (int i = 0; i < Processors.size();i++){
-        Processors[i].process(info);
+        Processors[i]->process(info);
     }
 }
 

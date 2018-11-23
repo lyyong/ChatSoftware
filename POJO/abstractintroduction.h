@@ -3,13 +3,13 @@
 
 #include <QString>
 
-class AbtractIntroduction
+class AbstractIntroduction
 {
 private:
     QString nickname;
     QString id;
 public:
-    AbtractIntroduction();
+    AbstractIntroduction();
 
     void setNickname(QString nickname){this->nickname = nickname;}
     void setId(QString id){this->id = id;}

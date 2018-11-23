@@ -10,7 +10,7 @@
 class Connector : public QThread,QTcpSocket
 {
 private:
-    QList<AbstractInfoProcessor> Processors;
+    QList<AbstractInfoProcessor*> Processors;
     quint16 DataLen = 1024;
 
     void assign(QString);
@@ -20,7 +20,7 @@ public:
     void run();
     void send();
 
-    QList<AbstractInfoProcessor> getProcessors(){return Processors;}
+    QList<AbstractInfoProcessor*> getProcessors(){return Processors;}
 };
 
 #endif // CONNECTOR_H

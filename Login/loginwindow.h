@@ -8,7 +8,7 @@ class LoginWindow : public QWidget
     Q_OBJECT
 
 public:
-    LoginWindow(QWidget *parent = 0);
+    LoginWindow(QWidget *parent = nullptr);
     ~LoginWindow();
 };
 

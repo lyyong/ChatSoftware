@@ -26,51 +26,21 @@ DEFINES += QT_DEPRECATED_WARNINGS
 CONFIG += c++11
 
 SOURCES += \
-        main.cpp \
     main.cpp \
-    Core/connector.cpp \
-    Core/abstractinfocallback.cpp \
-    Core/abstractmessagecoded.cpp \
-    Core/abstractinfoprocessor.cpp \
-    Core/abstractinfocallback.cpp \
-    Core/abstractinfoprocessor.cpp \
-    Core/abstractmessagecoded.cpp \
-    Core/connector.cpp \
     Core/abstractinfocallback.cpp \
     Core/abstractinfoprocessor.cpp \
     Core/abstractmessagecoded.cpp \
     Core/connector.cpp \
     Login/loginwindow.cpp \
-    Core/abstractinfocallback.cpp \
-    Core/abstractinfoprocessor.cpp \
-    Core/abstractmessagecoded.cpp \
-    Core/connector.cpp \
-    Login/loginwindow.cpp \
-    main.cpp \
     Login/logininfoprocessor.cpp \
     Friends/friendwindow.cpp \
     Friends/friendinfoprocessor.cpp \
-    POJO/abtractintroduction.cpp \
     POJO/myself.cpp \
     POJO/friend.cpp \
-    Friends/localfriendlist.cpp
+    Friends/localfriendlist.cpp \
+    POJO/abstractintroduction.cpp
 
 HEADERS += \
-        loginwindow.h \
-    loginwindow.h \
-    Core/connector.h \
-    Core/abstractinfocallback.h \
-    Core/abstractmessagecoded.h \
-    Core/abstractinfoprocessor.h \
-    Core/abstractinfocallback.h \
-    Core/abstractinfoprocessor.h \
-    Core/abstractmessagecoded.h \
-    Core/connector.h \
-    Core/abstractinfocallback.h \
-    Core/abstractinfoprocessor.h \
-    Core/abstractmessagecoded.h \
-    Core/connector.h \
-    Login/loginwindow.h \
     Core/abstractinfocallback.h \
     Core/abstractinfoprocessor.h \
     Core/abstractmessagecoded.h \
@@ -79,10 +49,10 @@ HEADERS += \
     Login/logininfoprocessor.h \
     Friends/friendwindow.h \
     Friends/friendinfoprocessor.h \
-    POJO/abtractintroduction.h \
     POJO/myself.h \
     POJO/friend.h \
-    Friends/localfriendlist.h
+    Friends/localfriendlist.h \
+    POJO/abstractintroduction.h
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

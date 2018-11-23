@@ -2,7 +2,7 @@
 #define FRIEND_H
 
 #include <QString>
-#include "abstractintroduction.h"
+#include "POJO/abstractintroduction.h"
 
 class Friend : public AbstractIntroduction
 {
@@ -12,7 +12,7 @@ private:
 public:
     Friend();
     void setRemark(QString remark){this->remark = remark;}
-    void setIsChatting(bool is){is_Chatting = is;}
+    void setIsChatting(bool is){isChatting = is;}
 
     QString getRemark(){return remark;}
     bool getIsChatting(){return isChatting;}
